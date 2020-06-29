@@ -1,0 +1,21 @@
+{
+  "name": "readme-package-printer",
+  "version": "0.1.0",
+  "description": "An simple cli that prints the README of an npm package",
+  "main": "index.js",
+  "repository": "https://github.com/Giancarl021/Readme-Package-Printer.git",
+  "author": "Giancarlo Fontela da Luz <gian.f.luz@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": {
+    "npm-md": "bin"
+  },
+  "dependencies": {
+    "api-npm": "^1.0.0",
+    "marked": "^1.1.0",
+    "marked-terminal": "^4.1.0",
+    "yargs": "^15.3.1"
+  }
+}
