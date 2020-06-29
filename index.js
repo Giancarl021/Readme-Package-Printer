@@ -1,9 +1,16 @@
 const args = require('yargs').argv;
 const loadPackageReadme = require('./src/services/readme');
 const renderResult = require('./src/services/render');
+const printHelp = require('./src/services/help');
 
 async function main() {
     const [packageName] = args._;
+
+    if(hasFlag('?')) {
+        printHelp();
+        return;
+    }
+
     if(!packageName) {
         console.log('Without package name');
         return;
