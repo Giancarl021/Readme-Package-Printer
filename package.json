@@ -1,6 +1,6 @@
 {
   "name": "readme-package-printer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An simple cli that prints the README of an npm package",
   "main": "index.js",
   "repository": "https://github.com/Giancarl021/Readme-Package-Printer.git",
@@ -19,6 +19,9 @@
     "yargs": "^15.3.1"
   },
   "keywords": [
-    "cli", "readme", "markdown", "npm"
+    "cli",
+    "readme",
+    "markdown",
+    "npm"
   ]
 }
