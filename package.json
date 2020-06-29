@@ -17,5 +17,8 @@
     "marked": "^1.1.0",
     "marked-terminal": "^4.1.0",
     "yargs": "^15.3.1"
-  }
+  },
+  "keywords": [
+    "cli", "readme", "markdown", "npm"
+  ]
 }
